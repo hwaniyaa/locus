@@ -1,0 +1,48 @@
+* {
+  font-family: "Changa", sans-serif;
+  font-family: "Noto Sans KR", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  font-family: "Changa", sans-serif;
+  font-family: "Noto Sans KR", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+img {
+  vertical-align: top;
+}
+
+video {
+  vertical-align: top;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+}
+.wrapper .header-area {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+.wrapper .header-area .nav-box {
+  width: 100%;
+  height: 10vw;
+  display: flex;
+  justify-content: space-between;
+  outline: 1px solid red;
+}
+.wrapper .header-area .nav-box .nav-box--logo img {
+  width: 16vw;
+}
+.wrapper .main-area .main-bg--box .main-bg--box_video video {
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+  -o-object-fit: cover;
+     object-fit: cover;
+}

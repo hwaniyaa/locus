@@ -1,0 +1,53 @@
+* {
+  font-family: 'Changa', sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+body {
+  font-family: 'Changa', sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+img {
+  vertical-align: top;
+}
+video {
+  vertical-align: top;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+
+  .header-area {
+    width: 100%;
+    position: fixed;
+    top: 0; left: 0;
+    z-index: 99;
+    .nav-box {
+      width: 100%;
+      height: 10vw;
+      display: flex;
+      justify-content: space-between;
+      outline: 1px solid red;
+      .nav-box--logo {
+        img {
+          width: 16vw;
+        }
+      }//.nav-box--logo
+    }//.nav-box
+  }//.header-area
+
+  .main-area {
+    .main-bg--box {
+      .main-bg--box_video {
+        video {
+        width: 100%;
+        height: 100vh;
+        box-sizing: border-box;
+        object-fit: cover;
+        }
+      }//.main-bg--box_video
+    }//.main-bg--box
+  }//.main-area
+}//.wrapper 
